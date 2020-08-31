@@ -1,0 +1,165 @@
+.logo, .logo-footer{
+    width: 20%;
+  }
+  .barra-superior{
+    background-color:#f49239;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  .barra-superior button{
+    font-size: 1.5rem;
+  }
+  .tx-color-item {
+    color: #871104!important;
+  }
+  .produtos-header{
+    background-image: url('../img/retangulo-superior.png');
+  }
+  .bg-dark-green{
+        background-color: #004c18;
+  }
+  .tx-dark-green{
+        color: #004c18;
+  }
+  .border-radius-right-30px{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .border-radius-top-rodape{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .bg-ligth-gray{
+    background-color: #f1f2f2;
+  }
+  .tx-dark-gray {
+    color:#707070;
+  }
+  .responsive{
+    background-color: rgb(8, 8, 8);
+  }
+  img{
+    vertical-align: 0;
+  }
+  .televendas{
+    font-size: 9px;
+  }
+  .prdutos {
+    border-radius: 20px;
+  }
+  .bg-red-footer{
+    background-color: #ee2524;
+  } 
+
+/*  Dispositivos médios (tablets, 768 px e superior) */
+@media (min-width: 768px) {  
+.navbar-toggler-icon{
+width: 3em;
+height: 3em;
+}
+h1{
+font-size: 3.5rem;
+}
+h3{
+font-size: 3.0rem;
+}
+h4{
+font-size: 2.5rem;
+}
+p{
+font-size: 2rem;
+}
+.btn-ver-mais{
+font-size: 2rem;
+}
+.border-radius-top-rodape{
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+} 
+.nav-link{
+font-size: 2rem;
+}
+.televendas{
+font-size: 18px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+
+.nav-link{
+font-size: 1.5rem;
+}
+
+.logo{
+    width: 100%;
+    margin-top: -110px;
+}
+.logo-footer{
+    width: 70%;
+}
+p{
+font-size: 1rem;
+}
+
+.btn-ver-mais{
+font-size: 1rem;
+}  
+h3{
+font-size: 2.0rem;
+} 
+
+/* Dispositivos grandes (desktops, 992px e superior) */
+@media (min-width: 1200px) { 
+
+.televendas{
+font-size: 9px;
+}
+.telefone{
+font-size: 18px;
+line-height: 1.0;
+}
+.logo{ 
+width: 70%;
+margin-top: -80px;
+}
+.navbar{    
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+h4.dicas-novidades {
+font-size: 2.0rem;
+}  
+h4.header-article {
+font-size: 1.5rem;
+}
+.logo-footer{
+width: 40%;
+}
+.container-produtos{
+position: relative;
+}
+.ze-pimentinha{
+position: absolute;
+top:33%;
+right: 33%;
+}
+.bg-chat{
+position: absolute;
+bottom:-5%;
+right: -7%;
+width: 341px;
+height: 231px;
+background-image: url('../img/bg-chat.png');
+background-repeat: no-repeat;
+background-position: center;
+} 
+.carousel-indicators{
+  bottom: -6%; 
+}
+.border-radius-top-rodape{
+border-top-right-radius: 130px;
+border-top-left-radius: 130px;
+}
+}
+}
